@@ -1,0 +1,100 @@
+# CSV Export Files
+*.csv
+CSV/
+Results/
+Reports/
+*_Results_*
+*_Performance_*
+API_*.csv
+Daily_API_Report_*.csv
+
+# Authentication & Secrets
+*token*
+*secret*
+*key*
+*auth*
+.env
+config.json
+secrets.json
+auth.config
+
+# PowerShell specific
+*.ps1xml
+*.psd1
+*.psm1~
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+*.out
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# IDE and Editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Test results and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Personal configuration files
+config.local.ps1
+settings.local.json
+my_*.ps1
+personal_*.csv
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Documentation builds (if using docs generators)
+docs/_build/
+site/
+
+# Cache directories
+cache/
+.cache/
+
+# Custom result directories (add your own patterns)
+# output/
+# data/
+# exports/
